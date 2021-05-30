@@ -1,3 +1,9 @@
+"""
+move.py보다 나은 점
+1. move_types를 미리 설정해놓음으로써 L, R, U, D의 의미파악이 좀 더 쉬움
+2. 이후에 몇 칸을 움직일 지 변할 때 수정이 쉽다.
+"""
+
 # N을 입력받기
 n = int(input())
 x, y = 1, 1
@@ -21,3 +27,4 @@ for plan in plans:
     x, y = nx, ny
 
 print(x, y)
+
